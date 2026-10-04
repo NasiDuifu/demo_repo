@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY app.py .
 
-# Add a RUN instruction here 
+RUN mkdir /app/logs
 
 EXPOSE 8000
 
